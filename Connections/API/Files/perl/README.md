@@ -4,36 +4,36 @@ fetch\_files.pl - Download all public files from a IBM Connections instance
 
 # SYNOPSIS
 
-file2Connections.pl [-help|man] -user connections\_username -password connections\_password 
+fetch\_files.pl [-help|man] -user connections\_username -password connections\_password 
 -server connections\_server -workdir dirname
 
 # USAGE
 
-perl fetch\_files.pl -server connections.example.com -user leyrer -password secrethaX0rPass0rd -workdir /home/leyrer/Downloads
+perl fetch\_files.pl -server connections.example.com -user username@example.com -password secrethaX0rPass0rd -workdir /home/username/Downloads
 
 # OPTIONS
 
-- __-help__
+- \_\_-help\_\_
 
 Print a brief help message and exits.
 
-- __-man__
+- \_\_-man\_\_
 
 Prints the manual page and exits.
 
-- __-user__
+- \_\_-user\_\_
 
 The name of the connections user to login with.
 
-- __-password__
+- \_\_-password\_\_
 
 The IBM Connections password for the user.
 
-- __-server__
+- \_\_-server\_\_
 
 The servername (DNS hostname) ot the IBM Connections installation the files should be downloaded from.
 
-- __-workdir__
+- \_\_-workdir\_\_
 
 The direktory, the files shoudl be saved into.
 

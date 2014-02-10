@@ -262,12 +262,12 @@ fetch_files.pl - Download all public files from a IBM Connections instance
 
 =head1 SYNOPSIS
 
-file2Connections.pl [-help|man] -user connections_username -password connections_password 
+fetch_files.pl [-help|man] -user connections_username -password connections_password 
 -server connections_server -workdir dirname
 
 =head1 USAGE
 
-perl fetch_files.pl -server connections.example.com -user leyrer -password secrethaX0rPass0rd -workdir /home/leyrer/Downloads
+perl fetch_files.pl -server connections.example.com -user username@example.com -password secrethaX0rPass0rd -workdir /home/username/Downloads
 
 =head1 OPTIONS
 
