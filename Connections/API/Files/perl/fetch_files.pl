@@ -265,6 +265,10 @@ fetch_files.pl - Download all public files from a IBM Connections instance
 file2Connections.pl [-help|man] -user connections_username -password connections_password 
 -server connections_server -workdir dirname
 
+=head1 USAGE
+
+perl fetch_files.pl -server connections.example.com -user leyrer -password secrethaX0rPass0rd -workdir /home/leyrer/Downloads
+
 =head1 OPTIONS
 
 =over 8
@@ -309,7 +313,7 @@ A handy tool to download for example all presentations of the IBM Connect 2014 c
 
 This code has been tested with Connection 4.5 and perl 5, version 12, subversion 4 (v5.12.4) built for i686-linux-gnu-thread-multi-64int.
 
-=head1 Installing reuqired libraries on Ubuntu
+=head1 Installing required libraries on Ubuntu
 
 sudo aptitude install libxml-feedpp-perl
 
@@ -319,7 +323,7 @@ Code made available under the Apache 2.0 license. http://www.apache.org/licenses
 
 =head1 Authors
 
-Martin Leyrer <leyrer+connections@gmail.com>
+Martin Leyrer -- leyrer+connections@gmail.com
 
 =cut
 
