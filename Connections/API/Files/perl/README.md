@@ -13,27 +13,27 @@ perl fetch\_files.pl -server connections.example.com -user username@example.com 
 
 # OPTIONS
 
-- \_\_-help\_\_
+- __-help__
 
 Print a brief help message and exits.
 
-- \_\_-man\_\_
+- __-man__
 
 Prints the manual page and exits.
 
-- \_\_-user\_\_
+- __-user__
 
 The name of the connections user to login with.
 
-- \_\_-password\_\_
+- __-password__
 
 The IBM Connections password for the user.
 
-- \_\_-server\_\_
+- __-server__
 
 The servername (DNS hostname) ot the IBM Connections installation the files should be downloaded from.
 
-- \_\_-workdir\_\_
+- __-workdir__
 
 The direktory, the files shoudl be saved into.
 
