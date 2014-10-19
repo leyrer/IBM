@@ -6,7 +6,7 @@ DEST_DIR=/opt/install/packages
 
 declare -a wasfixes=("8.5.5.1-ws-was-ifpm94437.zip" "8.5.5.1-ws-wasprod-ifpi15998.zip" "8.5.5.1-ws-wasprod-ifpm91417.zip")
 declare -a connectionsfixes=("5.0.0.0-IC-Multi-IFLO80688.jar" "5.0.0.0-IC-Multi-IFLO80986.jar" "5.0.0.0-IC-Multi-IFLO80990.jar" "5.0.0.0-IC-Multi-IFLO81049.jar")
-INSTALLER_IM=agent.installer.linux.gtk.x86_1.7.3000.20140521_1925.zip
+INSTALLER_IM=agent.installer.linux.gtk.x86_64_1.7.3000.20140521_1925.zip
 INSTALLER_DB2=DB2_ESE_10_Linux_x86-64.tar.gz
 INSTALLER_DB2LICENCE=DB2_ESE_Restricted_QS_Activation_10.zip
 INSTALLER_DB2FP4=v10.1fp4_linuxx64_universal_fixpack.tar.gz
