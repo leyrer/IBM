@@ -185,7 +185,7 @@ echo "looking for $INSTALLER_WAS855SUPP_3"
 PKG=`find $ZIP_DIR -name $INSTALLER_WAS855SUPP_3 -print`
 if [ -n "$PKG" ]; then
     echo "Unpacking $PKG ..."
-    unzip -o "$PKG" -d "$DEST_DIR/$WAS_BASE" > /dev/null 2>&1
+    unzip -o "$PKG" -d "$DEST_DIR/$WASSUPP_BASE" > /dev/null 2>&1
 else
     echo "$INSTALLER_WAS855SUPP_3 not found!"
 fi
